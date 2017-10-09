@@ -1,0 +1,18 @@
+{
+  "manifest_version" : 2,
+  "name" : "Literally -> Fucking",
+  "version" : "0.0.1",
+  "description" : "Replaces the word Literally with the word Fucking",
+  "icons" : {
+    
+  },
+  "homepage_url" : "https://github.com/declantyson/literally-fucking",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "<all_urls>"
+      ],
+      "js" : ["lf.js"]
+    }
+  ]
+}
